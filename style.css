@@ -1,38 +1,126 @@
-/*    <header>
-    <div class="LogoAndText">
-      <img src="photoshop/design-assets/png/logo.png" alt="Logo tajam"/>
-      <h2>Tajam</h2>
-    </div>
-    <div class="topnav">
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Expertise</li>
-        <li>Teams</li>
-        <li>Works</li>
-        <li>People Say</li>
-        <li>Contact</li>
-      </ul>
-    </div>
-  </header>*/
-/**/
-/**/
-.LogoAndText{
-  display:flex;
+
+body{
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 80%;
+  text-align: center;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
 }
-
-
-
-h1{
-  color: ;
+header{
+  background-size: cover;
+  background-position: bottom center;
+}
+.logopart{
+  color: #58B8B6;
+}
+.LogoAndText{
+  display:inline-flex;
+  align-items: flex-start;
+width: 30%;
+}
+.topnav{
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  word-spacing: 25px;
+  font-weight: bold;
+  color: white;
+}
+.topnav li{
+  display:inline-block;
+}
+.Alltogether{
+  background-image: url("photoshop/design-assets/bgk-header.png") ;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.backgroundOne h1,
+.backgroundOne p {
+margin-top: 50px;
+color: white;
+}
+.sectionTwo{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 21%;
+}
+.ourstory{
+  width: 400px;
 }
 .backgroundTwo{
-  background-color: green;
+  background-image: url("photoshop/design-assets/bgk-middle.png");
+    padding: 10%;
 }
-.Placeholder{
-  width: 100px;
-  height: 150px;
+.backgroundTwo h4{
+  color: white;
+}
+table{
+  width: 600px;
+margin: auto;
+  text-align: center;
+}
+tbody td{
+  border: 1px solid black;
+  width:200px;
+}
+tbody{
+  height: 200px;
+}
+.backgroundThree{
+    background-image: url("photoshop/design-assets/bgk-middle.png");
+    color: white;
+    padding: 25px;
+    margin: 25px;
+}
+figure {
+    display: inline-block;
+    border: 1px dotted gray;
+    margin: 20px; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+input{
+  margin: auto;
+  display: block;
+}
+.twoblocks form,
+.twoblocks div{
+  margin: auto;
+  text-align: center;
+}
+#HappClient{
+  display: inline-block;
 }
 .logobrand{
-  width:10%;
+  width: 75px;
+  height: 75px;
+  display: inline-block;
 }
+.twoblocks{
+  display: inline-block;
+  color: red;
+}
+.HappClient,
+.twoblocks{
+  display: flex;
+}
+
+/*58B8B6 green color*/
