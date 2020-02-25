@@ -48,12 +48,8 @@ color: white;
 }
 .sectionTwo{
   display: flex;
-  position: relative;
-  flex-direction: row;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 21%;
+justify-content: center;
+margin: 25px;
 }
 .ourstory{
   width: 400px;
@@ -103,7 +99,7 @@ input{
 }
 .twoblocks form,
 .twoblocks div{
-  margin: auto;
+
   text-align: center;
 }
 #HappClient{
@@ -121,6 +117,7 @@ input{
 .HappClient,
 .twoblocks{
   display: flex;
+  justify-content: center;
 }
 
 /*58B8B6 green color*/
