@@ -1,3 +1,38 @@
+/*    <header>
+    <div class="LogoAndText">
+      <img src="photoshop/design-assets/png/logo.png" alt="Logo tajam"/>
+      <h2>Tajam</h2>
+    </div>
+    <div class="topnav">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Expertise</li>
+        <li>Teams</li>
+        <li>Works</li>
+        <li>People Say</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+  </header>*/
+/**/
+/**/
+.LogoAndText{
+  display:flex;
+}
+
+
+
 h1{
-  color: red;
+  color: ;
+}
+.backgroundTwo{
+  background-color: green;
+}
+.Placeholder{
+  width: 100px;
+  height: 150px;
+}
+.logobrand{
+  width:10%;
 }
